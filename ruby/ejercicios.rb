@@ -6,4 +6,10 @@
 Los comentarios de multiples lineas siempre empiezan con '=begin' y terminan con '=end'
 Los comentarios son muy importantes ya que nos permite explicar el código que se elabora y así continuar con el trabajo déspues de varios meses, por tal motivo deben ser claros, consisos y explicativos con respecto al código que involucra.
 =end
+# Primer mensaje en terminal
+
+# Sin salto de linea
+print 'Hola print'
+
+# Con salto de linea
 puts'Hola mundo'
