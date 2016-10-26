@@ -27,17 +27,17 @@ var texto = 'Cadena de texto';
 // 2.3 Variables boleanas
 var boleana = true;
 
-console.log(numerica, texto, boleana) // Las variables no necesitan comillas para poder ser mostradas en la terminal.
+console.log(numerica, texto, boleana); // Las variables no necesitan comillas para poder ser mostradas en la terminal.
 
-// Métodos
+// 3. Métodos
 /*
-    Es un bloque de código que se invoca mediante una palabra clave y afecta o modifica en este caso la variable indicada, los metodos pueden ser creados por uno mismo pero en este caso se usaran los que viene por defecto en el sistema, especialmente los metodos de manejo de texto.
+    Es un bloque de código que se invoca mediante una palabra clave y afecta o modifica en este caso la variable indicada, los metodos pueden ser creados por uno mismo, pero en este caso se usaran los que viene por defecto en el sistema, especialmente los metodos de manejo de texto.
 */
 
-// Método para saber el largo de una palabra
+// 3.1 Método sin argumentos
 var palabra = "programador";
 
-console.log(palabra.length) // En este caso el metodo es length, la cual recahe sobre la variable palabra que contiene el string programador
+console.log(palabra.length); // En este caso el metodo es length, el cual recahe sobre la variable palabra que contiene el string programador.
 
-//Método con argumentos
+// 3.2 Método con argumentos
 console.log(palabra.split('o')); // el metodo split('ARG') corta la cadena de texto donde encuentre el ARGumento dado, en este caso la vocal 'o' y por esta vocal divide la palabra

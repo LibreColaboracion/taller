@@ -30,18 +30,18 @@ boleana = True
 
 print( numerica, texto, boleana) # Las variables no necesitan comillas para poder ser mostradas en la terminal.
 
-# Métodos
+# 3. Métodos
 '''
-    Es un bloque de código que se invoca mediante una palabra clave y afecta o modifica en este caso la variable indicada, los metodos pueden ser creados por uno mismo pero en este caso se usaran los que viene por defecto en el sistema, especialmente los metodos de manejo de texto.
+    Es un bloque de código que se invoca mediante una palabra clave y afecta o modifica en este caso la variable indicada, los metodos pueden ser creados por uno mismo, pero en este caso se usaran los que viene por defecto en el sistema, especialmente los metodos de manejo de texto.
 '''
 
-# Método sin argumentos
+# 3.1 Método sin argumentos
 palabra = 'programador'
 
-print(palabra.upper()) # En este caso el metodo es upper(), el cual recahe sobre la variable palabra que contiene el string programador
+print(palabra.upper()) # En este caso el metodo es upper(), el cual recahe sobre la variable palabra que contiene el string programador.
 
-# Método con argumentos
+# 3.2 Método con argumentos
 print(palabra.split('o')) # El metodo split('ARG') corta la cadena de texto donde encuentre el ARGumento dado, en este caso la vocal 'o' y por esta vocal divide la palabra.
 
-# Método donde el argumento es la varibale a modificar
+# 3.3 Método donde el argumento es la varibale a modificar
 print(len(palabra)) # El metodo len() toma como argumento la misma variable o cadena de texto de la cual queremos saber su largo.
