@@ -14,7 +14,7 @@ echo $var # Imprimero el resultado de haber ejercido el comando
 
 ####-------------------- Entra de texto por teclado --------------------####
 
-read -p  "gruta preferida => " var1 # read 'comando para generar lectura del teclado' -p 'para agregar un mensaje' 
+read -p  "ruta preferida => " var1 # read 'comando para generar lectura del teclado' -p 'para agregar un mensaje' 
 echo "Me gusta comer $var1" # var1 "variable a donde se carga la entrada"
 
 
