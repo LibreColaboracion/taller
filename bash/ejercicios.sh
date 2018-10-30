@@ -4,16 +4,16 @@
 ####-------------------- Bases para bash --------------------####
 
 #var=pwd #la variable se declara sin espacio pude ser de cualquier tipo: entero, de punto flotante, cadena de texto, arreglo, etc
-#echo $var # Se necesita del simbolo $ para poder trabajar el valo rd ela variable
+#echo $var # Se necesita del simbolo $ para poder trabajar el valor de la variable
 #echo 'Este es el nombre de la variable: $var' # las comillas simples imprimen el texto dentro de ellas sin discriminar si es parte del programa o no
 #echo "Este es el contenido de la variable: $var" # las comillas simples imprimen el texto dentro de ellas sin discriminar si es parte del programa o no
 
-#var=`pwd` # Las comillas simples al lado contrario ` ` permiten ejecuta rl comando dentro de ellas
+#var=`pwd` # Las comillas simples al lado contrario ` ` permiten ejecutar el comando dentro de ellas
 #echo $var # Imprimero el resultado de haber ejercido el comando 
 
 ####-------------------- Variables numericas --------------------####
 
-#let num=100 # Es bueno identificar con let las variables que van a manejar numeros
+#let num=100 # Es bueno identificar con let las variables que van a manejar números
 #let suma=$num+200 # Para sumar se debe hacer mediante una variable que empiece con let 
 
 
